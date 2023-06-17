@@ -1,11 +1,11 @@
 import React from "react";
 import { styled } from "styled-components";
 
-function Dashboard() {
+function Transactions() {
   return (
     <Container>
       <Top>
-        <Heading>Dashboard</Heading>
+        <Heading>Transactions</Heading>
       </Top>
     </Container>
   );
@@ -21,4 +21,4 @@ const Heading = styled.h1`
   color: #f9f9f9;
 `;
 
-export default Dashboard;
+export default Transactions;

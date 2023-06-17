@@ -1,19 +1,15 @@
 import React from "react";
 import { styled } from "styled-components";
 
-function Dashboard() {
+function Help() {
   return (
     <Container>
-      <Top>
-        <Heading>Dashboard</Heading>
-      </Top>
+      <Heading>Help</Heading>
     </Container>
   );
 }
 
 const Container = styled.div``;
-
-const Top = styled.div``;
 
 const Heading = styled.h1`
   font-size: 48px;
@@ -21,4 +17,4 @@ const Heading = styled.h1`
   color: #f9f9f9;
 `;
 
-export default Dashboard;
+export default Help;
