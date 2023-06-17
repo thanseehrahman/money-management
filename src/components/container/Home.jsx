@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { styled } from "styled-components";
 import Sidebar from "../navigation/Sidebar";
 
 function Home() {
+  useEffect(() => {}, []);
+
   return (
     <Container>
       <Sidebar />

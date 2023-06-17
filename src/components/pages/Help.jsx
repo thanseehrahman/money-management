@@ -15,6 +15,7 @@ const Heading = styled.h1`
   font-size: 48px;
   font-weight: 700;
   color: #f9f9f9;
+  margin-bottom: 48px;
 `;
 
 export default Help;

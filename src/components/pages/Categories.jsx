@@ -13,7 +13,9 @@ function Categories() {
 
 const Container = styled.div``;
 
-const Top = styled.div``;
+const Top = styled.div`
+  margin-bottom: 48px;
+`;
 
 const Heading = styled.h1`
   font-size: 48px;
