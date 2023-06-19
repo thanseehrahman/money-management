@@ -1,11 +1,13 @@
 import React from "react";
 import { styled } from "styled-components";
+import AddButtonCircle from "../buttons/AddButtonCircle";
 
 function Transactions() {
   return (
     <Container>
       <Top>
         <Heading>Transactions</Heading>
+        <AddButtonCircle type="transaction" />
       </Top>
     </Container>
   );
@@ -14,6 +16,9 @@ function Transactions() {
 const Container = styled.div``;
 
 const Top = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 48px;
 `;
 
